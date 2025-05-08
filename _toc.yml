@@ -1,0 +1,8 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/structure.html
+
+root: intro
+
+entries:
+  - title: forSchleife # Der Titel für deine forSchleife-Seite (kannst du anpassen)
+    file: forSchleife

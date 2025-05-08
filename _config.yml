@@ -1,0 +1,46 @@
+title: Schleifen in Python
+author: Dein Name
+copyright: "2025"
+
+execute:
+  execute_notebooks: "off"
+
+only_build_toc_files: true
+
+html:
+  favicon : "figures/favicon.ico" # Optional: Pfad zu deinem Favicon
+  baseurl :  "https://github.com/jil91/testBook" # Deine Repository-URL
+  home_page_in_navbar    : true
+  extra_footer: |
+        <div>
+          🤖
+        </div>
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - attrs_block
+    - attrs_inline
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+  myst_url_schemes: [ mailto, http, https ]
+  myst_dmath_double_inline: true
+
+sphinx:
+  config:
+    language: de # Oder deine gewünschte Sprache
+    html_theme_options:
+      repository_url: "https://github.com/jil91/testBook" # Deine Repository-URL
+      use_repository_button: true
+      use_issues_button : false # Kannst du auf true setzen, wenn du Issues-Button möchtest
+      launch_buttons:
+        thebe: false # Thebe ist eine interaktive Umgebung, für den Anfang vielleicht ausschalten
+    html_show_copyright: true
+    tippy_add_class: "has-tippy"
